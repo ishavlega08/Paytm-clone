@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const { string } = require("zod");
 
-mongoose.connect("mongodb+srv://admin:Ishav%402002@cohort-2.sa2qatc.mongodb.net/paytm")
+mongoose.connect("mongodb url")
 
 const UserSchema = new mongoose.Schema({
     username: String,
